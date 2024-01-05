@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "uaccess.h": "c",
+        "thread_info.h": "c",
+        "bug.h": "c"
+    }
+}
