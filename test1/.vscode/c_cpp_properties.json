@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "Old_includePath": [
+                "${default}",
+                "/usr/include/**",
+                "/usr/src/linux-hwe-5.4-headers-5.4.0-150/include/**",
+        		"/usr/CCCCinclude/**"
+            ],
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/src/linux-headers-5.4.0-150-generic/**"
+            ],
+            "CCC_forcedInclude": [
+                "${workspaceFolder}/BUILD/include/generated/autoconf.h"
+            ],
+            "defines": [
+            	"__G__NUC__",
+            	"MODULE",
+                "__KERNEL__"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "gnu++20",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

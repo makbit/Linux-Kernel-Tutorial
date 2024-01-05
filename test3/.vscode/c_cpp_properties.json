@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/src/linux-headers-5.4.0-150-generic/**",
+                "/usr/src/linux-headers-6.2.0-36-generic/**",
+                "${default}"
+            ],
+            "defines": [
+                "__KERNEL__",
+                "__GNUC__",
+                "MODULE"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "compilerArgs": ["-nostdinc"],
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

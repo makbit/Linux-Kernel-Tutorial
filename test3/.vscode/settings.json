@@ -1,0 +1,6 @@
+{
+	"editor.insertSpaces": false,
+	"files.associations": {
+		"proc_fs.h": "c"
+	}
+}
